@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FTP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Script file="lib_finder.script" />
+			<Target title="Debug">
+				<Option output="bin\Debug\FTP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="cygwin" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\FTP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lpthread" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lpthread" />
+		</Linker>
+		<Unit filename="com.h" />
+		<Unit filename="env_and_log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file_operate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ftp.h" />
+		<Unit filename="ftp_cmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ftp_session.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ftp_var.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="list_operate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shm.h" />
+		<Unit filename="srm_dat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srm_ipc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="srm_ipc.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars set="default" />
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="" main="" init_handlers="necessary" language="CPP" />
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

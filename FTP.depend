@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1223877846 source:d:\projects\ftp\ftp_session.c
+	"ftp.h"
+	"shm.h"
+	"com.h"
+
+1223891734 d:\projects\ftp\ftp.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<pthread.h>
+	<ctype.h>
+	<sys/types.h>
+	<unistd.h>
+	<sys/stat.h>
+	<errno.h>
+	<time.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdarg.h>
+	<netdb.h>
+	<sys/vfs.h>
+	<sys/sem.h>
+	<dirent.h>
+
+1223880539 source:d:\projects\ftp\shm.c
+	"ftp.h"
+	"shm.h"
+	"com.h"
+
+1222406439 source:d:\projects\ftp\file_operate.c
+	"ftp.h"
+	"shm.h"
+	"com.h"
+
+1223880973 source:d:\projects\ftp\main.c
+	"ftp.h"
+	"shm.h"
+	"com.h"
+
+1223878937 source:d:\projects\ftp\env_and_log.c
+	"ftp.h"
+	"shm.h"
+	"srm_ipc.h"
+	<string.h>
+	<sys/syslog.h>
+	<stdarg.h>
+
+1223877751 source:d:\projects\ftp\ftp_var.c
+	"ftp.h"
+	"shm.h"
+
+1222080489 source:d:\projects\ftp\ftp_cmd.c
+	"ftp.h"
+	"shm.h"
+	"com.h"
+
+1223875954 source:d:\projects\ftp\list_operate.c
+	"ftp.h"
+	"shm.h"
+	"com.h"
+
+1220248427 d:\projects\ftp\srcopy_shm.h
+	<sys/ipc.h>
+	<sys/shm.h>
+	<fcntl.h>
+
+1221184846 d:\projects\ftp\shm.h
+	<sys/ipc.h>
+	<sys/shm.h>
+	<fcntl.h>
+
+1223879787 source:d:\projects\ftp\srm_dat.c
+	<string.h>
+	<sys/types.h>
+	"srm_ipc.h"
+
+1220383942 d:\projects\ftp\srm_ipc.h
+	"com.h"
+	"shm.h"
+
+1220387184 d:\projects\ftp\com.h
+	<stdio.h>
+	<errno.h>
+
+1223879898 source:d:\projects\ftp\srm_ipc.c
+	<string.h>
+	<sys/types.h>
+	"srm_ipc.h"
+	"shm.h"
+

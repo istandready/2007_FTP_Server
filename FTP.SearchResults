@@ -1,0 +1,8 @@
+---- accept_list Matches (7 in 3 files) ----
+Ftp.h:extern int accept_list(struct ST_DATASOCK * datasock_ptr, char* dir_name, struct list * head);
+Ftp_session.c:        rev = accept_list(&data_sock, path_name, &head);
+List_operate.c: *   NAME: accept_list
+List_operate.c:accept_list(struct ST_DATASOCK * datasock_ptr, char* dir_name, struct list * head)
+List_operate.c:        write_log("[ERROR INFO] select() error occured in accept_list()\n");
+List_operate.c:        write_log("[ERROR INFO] malloc() error occured in accept_list()\n");
+List_operate.c:        rev = accept_list(&data_sock, dir_name, head);
